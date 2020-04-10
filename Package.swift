@@ -2,13 +2,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "vapor4-playgrund",
+    name: "vapor4-playground",
     platforms: [
        .macOS(.v10_15)
     ],
     dependencies: [
         // 💧 A server-side Swift web framework.
-        .package(url: "https://github.com/vapor/vapor.git", from: "4.0.0-rc")
+        .package(url: "https://github.com/vapor/vapor.git", from: "4.0.1")
     ],
     targets: [
         .target(name: "App", dependencies: [
